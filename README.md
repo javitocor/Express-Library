@@ -21,8 +21,9 @@
 
 # Express Library
 
->  A simple library web app to keep track of the available books and information about them and their authors. User can filter by book, author and genre. built with Express and Mongoose. Project inside The Odin Project.
+>  A simple library web app to keep track of the available books and information about them and their authors. User can add/filter by book, author and genre. built with Express and Mongoose. Project inside The Odin Project.
 
+![screenshot](screenshot.png)
 
 Additional description about the project and its features.
 
