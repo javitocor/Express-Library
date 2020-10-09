@@ -2,6 +2,7 @@ var Book = require('../models/book');
 var Author = require('../models/author');
 var Genre = require('../models/genre');
 var BookInstance = require('../models/bookinstance');
+const { body,validationResult } = require('express-validator');
 
 var async = require('async');
 
