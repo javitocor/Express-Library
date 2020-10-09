@@ -187,10 +187,10 @@ exports.author_update_post = function(req, res) {
         else {
            // Data from form is valid. Update the record.
            Author.findByIdAndUpdate(req.params.id, author, {}, function (err, theauthor) {
-            if (err) { return next(err); }
-            // Successful - redirect to genre detail page.
-            res.redirect(theauthor.url);
-        });
+                if (err) { return next(err); }
+                // Successful - redirect to genre detail page.
+                res.redirect(theauthor.url);
+            });
         }
     }
 };
